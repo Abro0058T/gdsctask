@@ -12,10 +12,11 @@ import {
   ADD_TO_CART_REQUEST,
   ADD_TO_CART_SUCCESS,
   ADD_TO_CART_FAIL,
-  CART_FAIL,CART_SUCCESS,
+  CART_FAIL,
+  CART_SUCCESS,
   CART_REQUEST,
   CHECK_USER_FAIL,
-CHECK_USER_SUCCESS,
+  CHECK_USER_SUCCESS,
   CHECK_USER_REQUEST,
 } from "../constants/productConstants";
 
@@ -91,12 +92,12 @@ export const loginUser = (state = { user: [] }, action) => {
         error: action.payload,
       };
       break;
-      default:
+    default:
       return state;
   }
 };
 
-//Add to cart 
+//Add to cart
 export const addToCart = (state = { addtocart: [] }, action) => {
   switch (action.type) {
     case ADD_TO_CART_REQUEST:
@@ -117,14 +118,14 @@ export const addToCart = (state = { addtocart: [] }, action) => {
         error: action.payload,
       };
       break;
-      default:
+    default:
       return state;
   }
 };
 
-//Get cart details 
+//Get cart details
 
-export const getCart= (state = { cart: [] }, action) => {
+export const getCart = (state = { cart: [] }, action) => {
   switch (action.type) {
     case CART_REQUEST:
       return {
@@ -144,12 +145,12 @@ export const getCart= (state = { cart: [] }, action) => {
         error: action.payload,
       };
       break;
-      default:
+    default:
       return state;
   }
 };
 //check user
-export const checkUser= (state = { user: [] }, action) => {
+export const checkUser = (state = { user: [] }, action) => {
   switch (action.type) {
     case CHECK_USER_REQUEST:
       return {
@@ -161,7 +162,7 @@ export const checkUser= (state = { user: [] }, action) => {
       return {
         loading: false,
         exist: action.payload,
-        username:action.username
+        username: action.username,
       };
       break;
     case CHECK_USER_FAIL:
@@ -170,7 +171,7 @@ export const checkUser= (state = { user: [] }, action) => {
         error: action.payload,
       };
       break;
-      default:
+    default:
       return state;
   }
 };
