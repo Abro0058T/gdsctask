@@ -1,0 +1,10 @@
+.total{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 20vmax;
+}
+.table{
+    width: 70vmax !important;
+    margin-left: 20vmax;
+}

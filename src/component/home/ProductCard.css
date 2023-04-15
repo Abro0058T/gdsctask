@@ -1,0 +1,11 @@
+.productContainer{
+    width: 30vmax;
+    /* height: 30vmax; */
+     border: 2px solid rgba(196, 196, 196, 0.619);
+     margin: 1vmax;
+}
+
+.productImage{
+    width: 30vmax;
+    height: 20vmax;
+}

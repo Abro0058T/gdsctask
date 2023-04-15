@@ -1,0 +1,56 @@
+{
+    
+    "products":[
+       {"name": "product11",
+        "description": "gsr dcttrg",
+        "price": 1200,
+        "rating": 2,
+        "images": "",
+        "category": "Laptopdc",
+        "Stock": 0,
+        "numberOFReviews": 3,
+        "reviews": [],
+        "id":"23543"
+       
+    },
+    {
+        "name": "product11",
+        "description": "gsr dcttrg",
+        "price": 1200,
+        "rating": 2,
+        "images": "",
+        "category": "Laptopdc",
+        "Stock": 0,
+        "numberOFReviews": 3,
+        "reviews": [],
+        "id":"23546"
+       
+    },
+    {
+        "name": "product11",
+        "description": "gsr dcttrg",
+        "price": 1200,
+        "rating": 2,
+        "images": "",
+        "category": "Laptopdc",
+        "Stock": 0,
+        "numberOFReviews": 3,
+        "reviews": [],
+        "id":"235478"
+       
+    },
+    {
+        "name": "product11",
+        "description": "gsr dcttrg",
+        "price": 1200,
+        "rating": 2,
+        "images": "",
+        "category": "Laptopdc",
+        "Stock": 0,
+        "numberOFReviews": 3,
+        "reviews": [],
+        "id":"23501"
+       
+    }
+    ]
+}
