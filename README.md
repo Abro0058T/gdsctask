@@ -1,3 +1,5 @@
+NOTE:- Please ignore the UI 🙃🙃🙃
+
 ### Live  website url
 
 https://gdsctask-e4817.web.app
@@ -20,7 +22,8 @@ and you are good to go 😁😁🙂🙂
 
 Currently there are only 2 product in the database with limited data (🥲🥲🥲🥲)you add as many units you want and the total price will be shown in the cart 
 
-##Technologies used 
+##Technologies and framework used 
 1. Reactjs
 2. Firebase (for hosting ,database ,authentication)
 3. Redux (for state managment)
+4. Material-UI
